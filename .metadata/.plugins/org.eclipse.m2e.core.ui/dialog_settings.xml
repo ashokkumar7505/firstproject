@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Trainings\SprintBootTrials"/>
+			<item value="C:\Trainings\SpringBoot\Ex_Files_Spring_Boot_EssT\Ex_Files_Spring_Boot_EssT\Exercise Files\Chapter 6\06_04\06_04_Begin\service-logging"/>
+			<item value="C:\Trainings\SpringBoot\Ex_Files_Spring_Boot_EssT\Ex_Files_Spring_Boot_EssT\Exercise Files\Chapter 6\06_04\06_04_Begin\room-web-app"/>
+			<item value="C:\Trainings\SpringBoot\Ex_Files_Spring_Boot_EssT\Ex_Files_Spring_Boot_EssT\Exercise Files\Chapter 6\06_04\06_04_Begin\room-clr-app"/>
+			<item value="C:\Trainings\SpringBoot\Ex_Files_Spring_Boot_EssT\Ex_Files_Spring_Boot_EssT\Exercise Files\Chapter 6\06_04\06_04_Begin\room-cleaner-consumer"/>
+			<item value="C:\Trainings\SpringBoot\Ex_Files_Spring_Boot_EssT\Ex_Files_Spring_Boot_EssT\Exercise Files\Chapter 6\06_04\06_04_Begin\logging-spring-boot-starter"/>
+			<item value="C:\Trainings\SpringBoot\Ex_Files_Spring_Boot_EssT\Ex_Files_Spring_Boot_EssT\Exercise Files\Chapter 6\06_04\06_04_Begin\logging-spring-boot-autoconfigure"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="logging-spring-boot-starter"/>
+<aop-project name="room-clr-app"/>
+<aop-project name="room-web-app">
+<aspect-definition advice-class-name="com.frankmoley.landon.aop.LoggableAspect" advice-method-name="logMethodTiming(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="18" aspect-name="loggableAspect" aspect-start-line-number="18" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/logging-spring-boot-autoconfigure/src/main/java/com/frankmoley/boot/landon/logging/autoconfigure/LandonLoggingAutoconfigure.java" pointcut-expression="executeTiming()" proxy-target-class="true">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:room-web-app|3:java:com.frankmoley.boot.landon.roomwebapp.RoomWebAppApplication|8:apiController:13" bean-file="/room-web-app/src/main/java/com/frankmoley/boot/landon/roomwebapp/ApiController.java" bean-start-line="13" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/room-web-app/src/main/java/com/frankmoley/boot/landon/roomwebapp/RoomWebAppApplication.java" source="=service-logging/src\/main\/java&lt;com.frankmoley.landon.aop{LoggableAspect.java[LoggableAspect~logMethodTiming~QProceedingJoinPoint;" source-start-line="24" target="=room-web-app/src\/main\/java&lt;com.frankmoley.boot.landon.roomwebapp{ApiController.java[ApiController~getAllRooms" target-start-line="25"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="initial-boot-app"/>
+<aop-project name="room-cleaner-consumer"/>
+<aop-project name="room-clr-app1"/>
+<aop-project name="logging-spring-boot-autoconfigure"/>
+<aop-project name="service-logging"/>
+<aop-project name="room-web-app1"/>
+</aop-reference-model>

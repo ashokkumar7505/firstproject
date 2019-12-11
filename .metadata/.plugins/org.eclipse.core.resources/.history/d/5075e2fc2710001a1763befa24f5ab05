@@ -1,0 +1,30 @@
+package com.ashok.boot.essentials.initialbootapp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class InitialBootAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(InitialBootAppApplication.class, args);
+	}
+		
+		@RestController
+		@RequestMapping("/api")
+		public class ApiController{
+			@GetMapping("/greeting")
+			public String getGreeting() {
+				return "Hello World text from ApiController";
+			}
+		}
+		
+		@RestController
+		@RequestMapping("/")
+		public class BlankController{
+			public String getGreeting() {
+				return "Hello World";
+			}
+		}
+}
+

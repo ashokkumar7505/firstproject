@@ -1,0 +1,24 @@
+package com.spring.ashok.MS2;
+
+import org.springframework.cloud.gateway.filter.GatewayFilter;
+import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory;
+import org.springframework.stereotype.Component;
+
+@Component
+public class SCGWPreFilter extends AbstractGatewayFilterFactory<SCGWPreFilter.Config> {
+	
+	public SCGWPreFilter() {
+		super(Config.class);
+	}
+
+	public class Config {
+
+	}
+
+	@Override
+	public GatewayFilter apply(Config config) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

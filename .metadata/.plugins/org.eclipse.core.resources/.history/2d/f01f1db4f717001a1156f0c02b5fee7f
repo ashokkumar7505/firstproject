@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class RoomCleanerProcessor {
+	private ObjectMapper objectMapper;
+
+	public RoomCleanerProcessor() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

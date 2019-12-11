@@ -1,0 +1,40 @@
+package com.example.demo;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
+
+@SpringBootApplication
+@Configuration
+@PropertySource("application.properties")
+public class RoomClrApp1Application {
+	
+	
+	@Value("${spring.ldap.username}")
+	public static String username; 
+	
+	@Value("${spring.ldap.password}")
+	public static String password;
+	
+	@Bean
+	public static PropertySourcesPlaceholderConfigurer propertyConfigInDev() {
+		return new PropertySourcesPlaceholderConfigurer();
+	}
+	
+		
+	private static final Logger LOGGER = LoggerFactory.getLogger(RoomClrApp1Application.class);
+	
+	public static void main(String[] args) {
+		LOGGER.info("Before calling main "+username+password);
+		SpringApplication.run(RoomClrApp1Application.class, args);
+		LOGGER.info("After calling main "+username+password);
+		
+	}
+
+}

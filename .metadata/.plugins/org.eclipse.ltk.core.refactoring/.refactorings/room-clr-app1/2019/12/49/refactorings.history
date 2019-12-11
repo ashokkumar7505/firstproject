@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Room.java&apos; to &apos;room-clr-app/src/main/java/com.frankmoley.boot.clr.roomclrapp&apos;&#x0D;&#x0A;- Original project: &apos;room-clr-app1&apos;&#x0D;&#x0A;- Destination element: &apos;room-clr-app/src/main/java/com.frankmoley.boot.clr.roomclrapp&apos;&#x0D;&#x0A;- Original element: &apos;com.example.demo.Room.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=room-clr-app/src\/main\/java&lt;com.frankmoley.boot.clr.roomclrapp" element1="/src\/main\/java&lt;com.example.demo{Room.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1575529317440" units="1" version="1.0"/>
+</session>

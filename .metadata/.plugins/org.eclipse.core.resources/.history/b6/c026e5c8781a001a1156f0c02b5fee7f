@@ -1,0 +1,10 @@
+package com.spring.ashok.MS1;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/nt-ms1")
+public class SimpleController {
+
+}

@@ -1,0 +1,8 @@
+package com.spring.ashok.MS2;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class SCGWPreFilter extends AbstractGatewayFilterFactory<SCGWPreFilter.Config> {
+
+}
